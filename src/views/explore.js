@@ -7,9 +7,7 @@ const explore = () => {
         "vr/Build/UnityLoader.js"
     );
     return (
-        <div className="floating-embed">
-            <Unity unityContent={unityContent}/>
-        </div>
+        <Unity unityContent={unityContent}/>
     )
 }
 
